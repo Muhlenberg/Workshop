@@ -33,4 +33,4 @@ Use the above code sample to answer the following questions:
 5. Out of the four integer variables (`a`, `b`, `startX`, and `startY`), which ones would contain the same exact numerical value?
 6. Describe what pic would look like at the end of `drawOnPicture(a, b)`
 7. Give an example of how you could run/test `brokenPrinter(word)`
-8. What would the output of question 5 be?
+8. What would the output of question 7 be?
