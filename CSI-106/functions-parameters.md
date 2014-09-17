@@ -1,26 +1,28 @@
 # Functions and Parameters Worksheet
 
-    # Example Code 1
-    # Holly Bertolet 
-    # 9/16/14
+```python
+# Example Code 1
+# Holly Bertolet 
+# 9/16/14
 
-    # Draws on a picture starting at a given x and y value
-    def drawOnPicture(a, b):
-      file = pickAFile()
-      pic = makePicture(file) 
-      drawBox(pic, a, b)
-      show(pic)
+# Draws on a picture starting at a given x and y value
+def drawOnPicture(a, b):
+  file = pickAFile()
+  pic = makePicture(file) 
+  drawShape(pic, a, b)
+  show(pic)
 
-    def drawShape(pic, startX, startY):
-      for x in range(startX, startX+30):
-        for y in range(startY, startY+30):
-          pixel = getPixelAt(pic, x, y)
-          setColor(pixel, green)
-    
-    # Printing example
-    def brokenPrinter(word):
-      for letter in word:
-        print(letter + word)
+def drawShape(pic, startX, startY):
+  for x in range(startX, startX+30):
+    for y in range(startY, startY+30):
+      pixel = getPixelAt(pic, x, y)
+      setColor(pixel, green)
+
+# Printing example
+def brokenPrinter(word):
+  for letter in word:
+    print(letter + word)
+```
 
 Use the above code sample to answer the following questions: 
 
